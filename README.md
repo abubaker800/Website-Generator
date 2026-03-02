@@ -1,16 +1,61 @@
-# React + Vite
+Website Generator (Ultimate Edition)
+PocketAgency is a high-performance, React-based "no-code" website builder designed to help users create professional, single-page business websites in minutes. It features a real-time mobile preview and a powerful export engine that generates a standalone, production-ready HTML file.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Key Features
+Real-Time Live Preview: See your changes instantly inside a simulated mobile device frame.
 
-Currently, two official plugins are available:
+Intelligent Auto-Fill Templates: Includes pre-configured data for various industries including:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🍴 Restaurants: Specialized for menus and dine-in experiences.
 
-## React Compiler
+👗 Fashion/Boutiques: Tailored for clothing collections.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📱 Tech/Repair: Focuses on service booking and gadget listings.
 
-## Expanding the ESLint configuration
+💪 Gym/Fitness: Built for membership plans and personal training.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Custom Business Mode: Don't see your industry? Use the "Create Custom Business" tool to generate a unique template from scratch.
+
+Professional HTML Export: One-click "Export Professional Website" button that bundles your design into a single, optimized .html file using Tailwind CSS and Lucide icons.
+
+Modern UI/UX: Built with a sleek admin panel, glassmorphism effects, and support for both Light and Dark themes.
+
+Dynamic Sections: Easily manage:
+
+Hero sections with custom headlines and call-to-actions.
+
+Product/Service catalogs with price tags.
+
+Customer testimonials and star ratings.
+
+Photo galleries and social media links.
+
+🛠️ Tech Stack
+Frontend: React (Vite).
+
+Styling: Tailwind CSS.
+
+Icons: Lucide React.
+
+Deployment: Optimized for fast, static hosting.
+
+🚀 Getting Started
+
+1:- Clone the repository:
+    Bash
+    git clone https://github.com/abubaker800/Temp_Mail_Generator.git
+    cd pocket-agency
+2:- Install dependencies:
+    Bash
+    npm install
+3:- Launch the builder:
+    Bash
+    npm run dev
+📖 How to Export Your Site
+Once you have customized your business details in the editor:
+
+Click the "Export Professional Website" button.
+
+A standalone .html file will be downloaded to your computer.
+
+This file is fully functional and can be uploaded directly to any web host (like Netlify, Vercel, or GitHub Pages).
